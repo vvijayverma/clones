@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Header css */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.netflix-header{
+    position: absolute;
+    padding: 0px 150px;
+    /* background-color:; */
+}
+
+.signIn-loader {
+    display: flex;
+    justify-content: center;
+}
+.scroll-container {
+    display: flex;
+    overflow-x: auto; 
+    white-space: nowrap; 
+    -webkit-overflow-scrolling: touch; 
+    scrollbar-width: none; 
+  }
+  
+  .scroll-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+  
+  .inActive{
+    color: white;
+  }
+  .Active{
+    border-bottom: 2px solid greenyellow;
+    color: greenyellow;
+  }
+  /* .w-full {
+    width: 100%; 
+  } */
+  
+  /* .overflow-x-hidden {
+    overflow-x: hidden; 
+  } */
